@@ -1,0 +1,41 @@
+{
+  "name": "react-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack --mode development",
+    "dev": "node ./scripts/start.js"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/preset-typescript": "^7.8.3",
+    "@types/pixi.js": "^5.0.0",
+    "@types/vec2": "^1.6.1",
+    "axios": "^0.19.2",
+    "json-loader": "^0.5.7",
+    "phaser": "^3.22.0",
+    "pixi.js": "^5.2.1",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.5",
+    "vec2": "^1.6.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/preset-env": "^7.6.0",
+    "babel": "^6.23.0",
+    "babel-eslint": "^10.0.3",
+    "babel-loader": "^8.0.6",
+    "chalk": "^2.4.2",
+    "css-loader": "^3.2.0",
+    "eslint": "^6.4.0",
+    "file-loader": "^4.2.0",
+    "prettier": "^1.18.2",
+    "react-dev-utils": "^9.0.3",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.8",
+    "webpack-dev-server": "^3.8.0"
+  }
+}
