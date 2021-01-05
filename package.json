@@ -12,7 +12,7 @@
     "@babel/preset-typescript": "^7.8.3",
     "@types/pixi.js": "^5.0.0",
     "@types/vec2": "^1.6.1",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "json-loader": "^0.5.7",
     "phaser": "^3.22.0",
     "pixi.js": "^5.2.1",
